@@ -1,0 +1,26 @@
+{
+  "name": "css-grid-layout",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.24.5",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sydinh/css-grid-layout.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sydinh/css-grid-layout/issues"
+  },
+  "homepage": "https://github.com/sydinh/css-grid-layout#readme",
+  "description": ""
+}
