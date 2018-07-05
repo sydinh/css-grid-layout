@@ -6,7 +6,7 @@
     "start": "gulp"
   },
   "keywords": [],
-  "author": "",
+  "author": "sydinh",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.24.5",
@@ -22,5 +22,5 @@
     "url": "https://github.com/sydinh/css-grid-layout/issues"
   },
   "homepage": "https://github.com/sydinh/css-grid-layout#readme",
-  "description": ""
+  "description": "Get started CSS Grid"
 }
