@@ -9,7 +9,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>css-grid-layout</title>
+  <title>CSS Grid Implicit vs Explicit Tracks</title>
   <meta name="description" content="css grid layout">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/grid-layout.css">
@@ -17,8 +17,11 @@
     .container {
       display: grid;
       grid-gap: 15px;
-      grid-template-columns: 200px auto 200px;
-      grid-template-rows: 100px 200px 300px 100px;
+      grid-template-columns: 200px 400px;
+      grid-template-rows: 100px 200px;
+      grid-auto-rows: 300px;
+      /* grid-auto-rows: chrome work with multi value (grid-auto-rows: 200px 300px) */
+      grid-auto-columns: 100px;
     }
   </style>
 </head>
@@ -37,8 +40,6 @@
     <div class="item">6</div>
     <div class="item">7</div>
     <div class="item">8</div>
-    <div class="item">9</div>
-    <div class="item">10</div>
   </div>
 
   <!-- <script src="" async defer></script> -->
